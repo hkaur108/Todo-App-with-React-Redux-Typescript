@@ -1,0 +1,86 @@
+@use "sass:string";
+@import './var';
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color:$VeryLightGray;
+    background-color: $VeryDarkBlue!important;
+    background: url('/Users/queen/Desktop/SDE/projects/todo-app-main/todolist/public/images/bg-desktop-dark.jpg') no-repeat top center;
+    font-family: "Josefin Sans", serif;
+}
+h1{
+    letter-spacing: 7px!important;
+    font-weight: 500!important;
+    font-size: 1.60rem!important;
+}
+
+figure:hover{
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    width:100%;
+    height:20px;
+    background-color: $VeryDarkDesaturatedBlue;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.50rem 0;
+    padding:1.50rem;
+    font-size: 2rem;
+
+input{
+    width:100%;
+    height:100%;
+    background-color: $VeryDarkDesaturatedBlue;
+    color:$LightGrayishBlue!important;
+    font-weight: 100!important;
+    padding: 1rem 0;
+    border:none;
+    outline:none;
+    font-size: 1rem!important;
+    &:focus, &:focus-within{
+        background-color:$VeryDarkDesaturatedBlue ;
+    }
+}
+
+
+
+}
+
+input:placeholder-shown{
+    color:$DarkGrayishBlue;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: $VeryDarkDesaturatedBlue;
+    color:$LightGrayishBlue;
+    padding: 1rem;
+    font-size: 1.10rem;
+    border-bottom: 2px solid $VeryDarkGrayishBluel;
+    font-weight: 300;
+    &:hover{
+        cursor:pointer;
+    }
+    
+}
+small{
+     color:$LightGrayishBlue!important;
+    &:hover{
+        cursor: pointer;
+        color:#fff;
+    }
+}
