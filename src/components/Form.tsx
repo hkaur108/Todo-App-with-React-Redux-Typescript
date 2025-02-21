@@ -1,4 +1,4 @@
-import { Box,FormControl,Input } from '@mui/material'
+import { Box,FormControl,Input,Stack } from '@mui/material'
 import { useState } from 'react'
 import { useAppDispatch } from '../Redux/Hooks';
 
@@ -9,7 +9,7 @@ export default function Form() {
   const dispatch =useAppDispatch();
   const handleSubmit= (e:any)=>{
     e.preventDefault();
-    setText(e.target.value);
+    setText(e.currentTarget.value);
     let id=Math.floor(Math.random()*10 + Date.now());
     dispatch({type:'todos/getTodos',  
               payload:{
@@ -23,12 +23,12 @@ export default function Form() {
   }
 
   return (
-    <Box component="main">
+    <Stack component="main">
       <Box component="form" onSubmit={handleSubmit}>
-          <span className='round'></span>    
-          <input type='text' autoComplete='off' onChange={(e)=>setText(e.currentTarget.value)} value={text} name="text"  placeholder='Create a new todo' aria-describedby="Enter todo in the field"></input>
+          <Box component="span" className='round'></Box>    
+          <Box component="input" type='text' autoComplete='off' onChange={(e)=>setText(e.currentTarget.value)} value={text} name="text"  placeholder='Create a new todo' aria-describedby="Enter todo in the field"></Box>
       </Box>
-    </Box>
+    </Stack>
   
   )
 } 

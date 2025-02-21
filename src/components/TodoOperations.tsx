@@ -31,7 +31,7 @@ export default function TodoOperations() {
 
        }
   return (
-     <Stack direction="row" component="ul" className='l-flex'>
+     <Stack component="ul" direction="row" >
         <Box component="li">{activeTodos.length} items left</Box> 
         <Box component="li" onClick={handleAllTodos} className='l-blue'>All </Box> 
         <Box component="li" onClick={handleActive}>Active</Box>

@@ -1,13 +1,13 @@
-import { Box ,Typography} from '@mui/material';
+import { Box ,Typography,Stack} from '@mui/material';
+
 export default function Heading() {
   return (
-    <Box component="header" display="flex" alignItems="center" justifyContent="space-between" width="500px">
+    <Stack component="header" direction="row"  alignItems="center" justifyContent="space-between" width="500px">
         <Typography variant='h1'>TODO</Typography>
-        <figure>
-            <img src='/images/icon-sun.svg' alt='image for sun'/>
-            <figcaption>Image for Sun</figcaption>
-        </figure>
-    </Box>
+        <Box component="figure">
+          <Box component="img" src={process.env.PUBLIC_URL + '/images/icon-sun.svg'} alt='image for sun'></Box>
+        </Box>
+    </Stack>
    
   )
 }
