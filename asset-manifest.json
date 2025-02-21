@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Todo-App-with-React-Redux-Typescript.git/static/css/main.4fea1c78.css",
-    "main.js": "/Todo-App-with-React-Redux-Typescript.git/static/js/main.63027806.js",
-    "static/js/453.59bb3b6d.chunk.js": "/Todo-App-with-React-Redux-Typescript.git/static/js/453.59bb3b6d.chunk.js",
-    "static/media/bg-desktop-dark.jpg": "/Todo-App-with-React-Redux-Typescript.git/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
-    "index.html": "/Todo-App-with-React-Redux-Typescript.git/index.html",
-    "main.4fea1c78.css.map": "/Todo-App-with-React-Redux-Typescript.git/static/css/main.4fea1c78.css.map",
-    "main.63027806.js.map": "/Todo-App-with-React-Redux-Typescript.git/static/js/main.63027806.js.map",
-    "453.59bb3b6d.chunk.js.map": "/Todo-App-with-React-Redux-Typescript.git/static/js/453.59bb3b6d.chunk.js.map"
+    "main.css": "/Todo-App-with-React-Redux-Typescript/static/css/main.dd2dc65b.css",
+    "main.js": "/Todo-App-with-React-Redux-Typescript/static/js/main.0e9b3a1d.js",
+    "static/js/453.59bb3b6d.chunk.js": "/Todo-App-with-React-Redux-Typescript/static/js/453.59bb3b6d.chunk.js",
+    "static/media/bg-desktop-dark.jpg": "/Todo-App-with-React-Redux-Typescript/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/Todo-App-with-React-Redux-Typescript/index.html",
+    "main.dd2dc65b.css.map": "/Todo-App-with-React-Redux-Typescript/static/css/main.dd2dc65b.css.map",
+    "main.0e9b3a1d.js.map": "/Todo-App-with-React-Redux-Typescript/static/js/main.0e9b3a1d.js.map",
+    "453.59bb3b6d.chunk.js.map": "/Todo-App-with-React-Redux-Typescript/static/js/453.59bb3b6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fea1c78.css",
-    "static/js/main.63027806.js"
+    "static/css/main.dd2dc65b.css",
+    "static/js/main.0e9b3a1d.js"
   ]
 }
